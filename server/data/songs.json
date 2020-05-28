@@ -27,4 +27,10 @@
     "artist": "Vulfpeck",
     "releaseDate": "2017"
   }
+  {
+    "id": 5,
+    "title": "Beat It",
+    "artist": "MJ",
+    "releaseDate": "1995"
+  }
 ]
