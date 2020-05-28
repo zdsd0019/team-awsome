@@ -32,6 +32,9 @@
     "title": "Beat It",
     "artist": "MJ",
     "releaseDate": "1995",
-    "lyricsFile" : "song-file.txt"
+    "lyricsFile" : "song-file.txt",
+    "title": "Into the Unknown",
+    "artist": "Idina Menzel",
+    "releaseDate": "2019"
   }
 ]
