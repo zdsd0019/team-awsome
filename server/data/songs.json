@@ -26,15 +26,30 @@
     "title": "Wait for the Moment",
     "artist": "Vulfpeck",
     "releaseDate": "2017"
-  }
+  },
   {
-    "id": 5,
-    "title": "Beat It",
-    "artist": "MJ",
-    "releaseDate": "1995",
-    "lyricsFile" : "song-file.txt",
+    "id":5,
+    "title":"LOVE AGAIN",
+    "artist":"Daniel Caesar, Brandy",
+    "releaseDate":"2019"
+  },
+  {
+    "id": 6,
     "title": "Into the Unknown",
     "artist": "Idina Menzel",
     "releaseDate": "2019"
-  }
+  },
+  {
+    "id": 7,
+    "title": "In the end",
+    "artist": "Linkinpark",
+    "releaseDate": "2003"
+  },
+  { 
+    "id": 8,
+    "title": "Beat It",
+    "artist": "MJ",
+    "releaseDate": "1995",
+    "lyricsFile" : "song-file.txt"
+  },
 ]
