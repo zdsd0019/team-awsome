@@ -44,5 +44,12 @@
     "title": "In the end",
     "artist": "Linkinpark",
     "releaseDate": "2003"
-  }
+  },
+  { 
+    "id": 8,
+    "title": "Beat It",
+    "artist": "MJ",
+    "releaseDate": "1995",
+    "lyricsFile" : "song-file.txt"
+  },
 ]
