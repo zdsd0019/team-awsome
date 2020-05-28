@@ -38,5 +38,11 @@
     "title": "Into the Unknown",
     "artist": "Idina Menzel",
     "releaseDate": "2019"
+  },
+  {
+    "id": 7,
+    "title": "In the end",
+    "artist": "Linkinpark",
+    "releaseDate": "2003"
   }
 ]
