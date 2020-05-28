@@ -31,6 +31,7 @@
     "id": 5,
     "title": "Beat It",
     "artist": "MJ",
-    "releaseDate": "1995"
+    "releaseDate": "1995",
+    "lyricsFile" : "song-file.txt"
   }
 ]
