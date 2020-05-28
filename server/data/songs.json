@@ -33,4 +33,10 @@
     "artist":"Daniel Caesar, Brandy",
     "releaseDate":"2019"
   }
+  {
+    "id": 5,
+    "title": "Into the Unknown",
+    "artist": "Idina Menzel",
+    "releaseDate": "2019"
+  }
 ]
