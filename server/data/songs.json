@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Viva La Vida",
+    "artist": "Coldplay",
+    "releaseDate": "2008",
+    "lyricsFile": "viva-la-vida.txt",
+    "externalLink": "https://www.youtube.com/watch?v=dvgZkm1xWPE"
+  },
+  {
+    "id": 2,
+    "title": "Coming Over",
+    "artist": "Filous & James Hersey",
+    "releaseDate": "2017",
+    "lyricsFile": "coming-over.txt"
+  },
+  {
+    "id": 3,
+    "title": "Lost in the Light",
+    "artist": "Bahamas",
+    "releaseDate": "2017",
+    "lyricsFile": "wrong-file.txt"
+  },
+  {
+    "id": 4,
+    "title": "Wait for the Moment",
+    "artist": "Vulfpeck",
+    "releaseDate": "2017"
+  }
+]

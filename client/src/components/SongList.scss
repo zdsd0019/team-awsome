@@ -1,0 +1,35 @@
+@import '../styles/base.scss';
+
+.song-list {
+  list-style-position: inside;
+
+  &__item {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: $bstn-dark-grey;
+    padding: 15px;
+    color: white;
+    margin-bottom: 15px;
+
+    & > * {
+      margin-bottom: 10px;
+    }
+  }
+  &__name {
+    @include header-2;
+    color: white;
+  }
+  &__artist {
+    @include header-3;
+  }
+  &__release {
+    @include technical;
+    color: white;
+  }
+  &__show-lyrics {
+    @include button-primary;
+    cursor: pointer;
+    /* FIXME: can you add more padding on these buttons? */
+  }
+}

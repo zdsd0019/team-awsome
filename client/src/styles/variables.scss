@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Merriweather|Nunito+Sans&display=swap');
+// colors
+$bstn-supernova: #FFCF00;
+$bstn-denim: #1358DB;
+$bstn-black: #000000;
+$bstn-dark-grey: #434343;
+$bstn-white: #fff;
+
+// shades
+$bstn-denim-dark:#003fc2;
+
+// fonts
+$bstn-font-primary: 'Nunito Sans', sans-serif;
+$bstn-font-secondary: 'Merriweather', 'Courier', serif;
+$bstn-font-tertiary: 'Inconsolata', 'Courier New', Consolas, monospace;
+
+@mixin header-1() {
+  font-family: $bstn-font-primary;
+  font-size: 3rem;
+  color: $bstn-black;
+}
+
+@mixin header-2() {
+  font-family: $bstn-font-primary;
+  font-size: 1.571rem;
+  color: $bstn-dark-grey;
+}
+
+@mixin header-3() {
+  font-family: $bstn-font-primary;
+  font-size: 1.3125rem;
+  color: $bstn-supernova;
+}
+
+@mixin header-4() {
+  font-family: $bstn-font-primary;
+  font-size: 1.125rem;
+  color: $bstn-dark-grey;
+}
+
+@mixin body() {
+  font-family: $bstn-font-secondary;
+  font-size: 1rem;
+  color: $bstn-dark-grey;
+}
+
+@mixin technical() {
+  font-family: $bstn-font-tertiary;
+  font-size: 0.875rem;
+  color: $bstn-black;
+}
+
+@mixin link() {
+  font-family: $bstn-font-secondary;
+  font-size: inherit;
+  color: $bstn-denim;
+  text-decoration: underline $bstn-denim;
+}
+
+@mixin button-base() {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 24px;
+  border-radius: 3px;
+  transition: background-color .15s cubic-bezier(.4,0,.2,1),border-color .15s cubic-bezier(.4,0,.2,1);
+  font-size: 1.071rem;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1rem;
+  letter-spacing: normal;
+  text-align: center;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+@mixin button-primary() {
+  border: 1px solid $bstn-denim;
+  background-color: $bstn-denim;
+  color: $bstn-white;
+
+  &:hover {
+    background-color: $bstn-denim-dark;
+    border-color: $bstn-denim-dark;
+  }
+}
+
+@mixin card-base {
+  border-radius: 3px;
+  background-color: $bstn-white;
+  box-shadow: 0 2px 18px 0 rgba(0,0,0,.08);
+  padding: 37px 30px;
+}
+
+@mixin card-primary {
+  padding: 42px 34px 42px 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 2px 18px 0 rgba(0,0,0,.08);
+  transition: background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+  color: $bstn-black;
+  margin: 0;
+
+  &:hover {
+    background-color: $bstn-denim;
+    color: $bstn-white;
+  }
+}
+
+@mixin container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 50px;
+}

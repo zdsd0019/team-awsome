@@ -1,0 +1,20 @@
+{
+  "name": "bstn-react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install && npm start",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nanoid": "^2.0.3",
+    "nodemon": "^1.19.1",
+    "yaml": "^1.6.0"
+  }
+}

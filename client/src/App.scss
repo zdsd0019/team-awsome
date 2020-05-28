@@ -1,0 +1,49 @@
+@import 'styles/base';
+
+html, body {
+  @include body;
+}
+
+code {
+  font-family: $bstn-font-tertiary;
+}
+
+.font-header {
+  &-1 {
+    @include header-1;
+  }
+
+  &-2 {
+    @include header-2;
+  }
+
+  &-3 {
+    @include header-3;
+  }
+
+  &-4 {
+    @include header-4;
+  }
+}
+
+.font-body {
+  @include body;
+
+  &-technical {
+    @include technical;
+  }
+  &-link {
+    @include link;
+  }
+}
+
+.button {
+  @include button-base;
+  &--primary {
+    @include button-primary;
+  }
+}
+
+.container {
+  @include container;
+}
