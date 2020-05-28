@@ -26,11 +26,17 @@
     "title": "Wait for the Moment",
     "artist": "Vulfpeck",
     "releaseDate": "2017"
-  }
+  },
   {
     "id": 5,
     "title": "Into the Unknown",
     "artist": "Idina Menzel",
     "releaseDate": "2019"
+  },
+  {
+    "id": 6,
+    "title": "In the end",
+    "artist": "Linkinpark",
+    "releaseDate": "2003"
   }
 ]
